@@ -77,8 +77,19 @@ void loop()
   }
   delay(10000);
 
-
-    //PlottArray(1,freq,results); 
+   //if (results=calc1) //-si les résultats correspondent au "touché à 1 doigt"
+     //digitalWrite(D10,HIGH); //-allumer la led rouge et éteindre les autres
+     //digitalWrite(D11,LOW);
+     //digitalWrite(D12,LOW);
+   //if (results=calc1) //-si les résultats correspondent au "touché à 2 doigt"
+     //digitalWrite(D11,HIGH); //-allumer la led jaune et éteindre les autres
+     //digitalWrite(D10,LOW);
+     //digitalWrite(D12,LOW);
+   //if (results=calc1) //-si les résultats correspondent au "pris dans la main"
+     //digitalWrite(D12,HIGH); //-allumer la led verte et éteindre les autres
+     //digitalWrite(D10,LOW);
+     //digitalWrite(D11,LOW);
+   //PlottArray(1,freq,results); 
  
 
   TOG(PORTB,0);            //-Toggle pin 8 after each sweep (good for scope)
