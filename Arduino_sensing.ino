@@ -81,11 +81,11 @@ void loop()
      //digitalWrite(D10,HIGH); //-allumer la led rouge et éteindre les autres
      //digitalWrite(D11,LOW);
      //digitalWrite(D12,LOW);
-   //if (results=calc1) //-si les résultats correspondent au "touché à 2 doigt"
+   //if (results=calc2) //-si les résultats correspondent au "touché à 2 doigt"
      //digitalWrite(D11,HIGH); //-allumer la led jaune et éteindre les autres
      //digitalWrite(D10,LOW);
      //digitalWrite(D12,LOW);
-   //if (results=calc1) //-si les résultats correspondent au "pris dans la main"
+   //if (results=calc3) //-si les résultats correspondent au "pris dans la main"
      //digitalWrite(D12,HIGH); //-allumer la led verte et éteindre les autres
      //digitalWrite(D10,LOW);
      //digitalWrite(D11,LOW);
